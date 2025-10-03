@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import API from '../../api/axios';
-import CustomerLayout from '../../pages/customer/CustomerLayout';
+import CustomerLayout from '../../components/customer/CustomerLayout';
 import ProductCard from '../../components/customer/ProductCard'; 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
